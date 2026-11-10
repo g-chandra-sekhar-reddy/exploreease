@@ -1,0 +1,12 @@
+.favourites-section {
+  min-height: 80vh;
+  padding: 70px 7%;
+  background-color: #f8fafc;
+}
+
+.empty-favourites {
+  text-align: center;
+  color: #667085;
+  font-size: 18px;
+  margin-top: 60px;
+}

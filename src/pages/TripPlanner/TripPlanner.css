@@ -1,0 +1,147 @@
+.planner-section {
+  min-height: 80vh;
+  padding: 60px 7%;
+  background-color: #f8fafc;
+}
+
+.planner-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.planner-heading p {
+  color: #16a6a1;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.planner-heading h1 {
+  color: #142b45;
+  font-size: 36px;
+}
+
+.planner-heading span {
+  color: #667085;
+}
+
+.planner-form {
+  max-width: 600px;
+  margin: 0 auto 60px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.planner-form h2 {
+  color: #142b45;
+  margin-top: 0;
+}
+
+.planner-form label {
+  display: block;
+  margin: 20px 0 8px;
+  color: #344054;
+  font-weight: bold;
+}
+
+.planner-form select,
+.planner-form input {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #d0d5dd;
+  border-radius: 7px;
+  font-size: 15px;
+}
+
+.add-trip-button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 25px;
+  background-color: #16a6a1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.add-trip-button:hover {
+  background-color: #118681;
+}
+
+.planned-trips h2 {
+  color: #142b45;
+  margin-bottom: 25px;
+}
+
+.trip-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.trip-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+.trip-card img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.trip-info {
+  flex: 1;
+}
+
+.trip-info h3 {
+  color: #142b45;
+  margin: 0 0 8px;
+}
+
+.trip-info p {
+  color: #16a6a1;
+  margin: 5px 0;
+}
+
+.trip-info span {
+  color: #667085;
+  font-size: 13px;
+}
+
+.delete-trip-button {
+  background-color: #fee2e2;
+  color: #b42318;
+  border: none;
+  padding: 9px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.empty-trips {
+  text-align: center;
+  color: #667085;
+  padding: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .trip-list {
+    grid-template-columns: 1fr;
+  }
+
+  .trip-card {
+    flex-wrap: wrap;
+  }
+
+  .planner-heading h1 {
+    font-size: 28px;
+  }
+}
