@@ -4,7 +4,12 @@
 
 ExploreEase is a responsive travel discovery and trip planning web application built with React. It helps users explore destinations, search for places, save favourites, organize trips, and check weather forecasts.
 
+## Live Demo
+
+🚀 **ExploreEase:** https://exploreease-chi.vercel.app/
+
 ## Features
+
 
 - **Destination Discovery:** Explore popular destinations around the world.
 - **Search:** Find destinations by name or country.
